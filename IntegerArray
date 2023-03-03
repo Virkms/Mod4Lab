@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package virk.manpreet.integerarray;
+
+/**
+ *
+ * @author sukhm
+ */
+public class IntegerArray {
+
+    public static void main(String[] args) {
+        int[] numArray = new int[10];
+       for (int i = 0; i< numArray.length;i++){
+           numArray[i] = 0;
+       }
+        int [] bonus = new int[15];
+        for (int i = 0; i < bonus.length; i++){
+            bonus[i]++;
+            
+        }
+        int [] BestScores = {91,94,93,97,99};
+        System.out.println("Best Scores are:");
+        for (int i = 0; i < BestScores.length; i++){
+            System.out.printf("%d%n",BestScores[i]);
+        }
+    }
+}
